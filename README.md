@@ -23,3 +23,4 @@ Done
 Opening Screenshot
 ```
 ![tukangAbsen](https://github.com/ipanardian/tukangAbsen/raw/master/tukangAbsen.png)
+![tukangAbsen](https://github.com/ipanardian/tukangAbsen/raw/master/debug_checkin.png)
