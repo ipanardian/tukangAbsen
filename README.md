@@ -1,5 +1,5 @@
 # tukangAbsen
-When engineers don't want to fill out attendance manually...
+When engineers doesn't want to fill out attendance manually, tukangAbsen is the answer!
 
 ## How To Use
 
