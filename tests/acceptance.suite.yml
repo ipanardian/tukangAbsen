@@ -1,0 +1,16 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+settings:
+    bootstrap: test/acceptance/_bootstrap.php
+modules:
+    enabled:
+        - WebDriver:
+           url: WORKFORCE_APP_URL
+           browser: firefox
+           http_proxy: direct
+        - \Helper\Acceptance
