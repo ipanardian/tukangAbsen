@@ -7,7 +7,7 @@ class TukangAbsen {
     protected $command;
     protected $CODECEPTION_ARG;
 
-    const CODECEPTION = "php ~/workspace/loket-testunit/vendor/bin/codecept ";
+    const CODECEPTION = "php ~/usr/local/bin/codecept ";
     const CODECEPTION_RUN = "run acceptance ";
     const CODECEPTION_PATH_SCREENSHOTS = "./tests/_output/debug/";
     const DEBUG = "-debug";
