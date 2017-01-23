@@ -13,7 +13,7 @@ $I->amOnPage('#/attendee/ess?_k=h7tw1y');
 $I->waitForElement('button.btn-primary');
 $I->click('Add');
 $I->waitForElement('#checkin');
-$tolerance = 300;
+$tolerance = 180;
 $time = time() - $tolerance;
 $absen_time = date('H:i:s', $time);
 $date = date('Y-m-d', $time);
